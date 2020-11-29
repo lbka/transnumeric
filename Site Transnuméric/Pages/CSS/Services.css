@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.blocService {
+    display: flex;
+    background-color: lightpink;
+    width:22%;  
+    flex-direction: column;
+    text-align: center;
+    height:50%;
+}
+.imgServices {
+    display: flex;
+    height:80%;
+}

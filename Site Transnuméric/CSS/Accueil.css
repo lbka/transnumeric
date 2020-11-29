@@ -1,0 +1,158 @@
+html {
+    display:flex;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+header {
+    display: flex;
+    background-color: white;
+    border-bottom: solid rgb(192, 192, 192) 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+#content {
+    margin-top: 10%;
+}
+main {
+    display: flex;
+    width:100%;
+}
+footer {
+    display:flex;
+    position: absolute;
+    width:100%;
+    background-color: #343434;
+    color: #717171;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 3%;
+    width:20%;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    width:100%;
+    margin: 10px;
+}
+nav .Lien {
+    display:flex;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(21, 57, 101);
+    font-size: 20px;
+    transition: color 1s;
+    margin: 0px;
+}
+nav .Lien:hover, nav .Lien:focus, nav .Lien:active {
+    color: rgb(46, 126, 224);
+}
+#LogoTransnumeric {
+    display:flex;
+    justify-self: flex-start;
+    width:30%;
+}
+#ImgAccueil {
+    display: flex;
+    margin: 20px;
+    width:100%;
+}
+#Description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:  poison-regular;
+}
+#Titre {
+    display: flex;
+    flex-direction: row;
+    font-size:64px;
+    margin: 0px;
+    font-weight: bold;
+}
+#T1 {
+    color:rgb(21,57,101);
+}
+#T2 {
+    color:rgb(0,139,141);
+}
+#T3 {
+    color:rgb(21,57,101);
+}
+#T4 {
+    color:rgb(249,178,51);
+}
+#Slogan {
+    display: flex;
+    font-size:40px;
+    margin: 0px;
+    text-align: center;
+    width: 70%;
+}
+#LogoFooterTransnuméric {
+    width:40%;
+    margin: 0 auto;
+ }
+#LogoFooterIntech {
+    width:40%;
+    margin: 0 auto;
+}
+#LogoFooterTransin {
+    width:40%;
+    margin: 0 auto;
+}
+#footer-description {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+ 
+}
+#footer-description p {
+    margin: 5%;
+    text-align: justify;
+}
+#footer-liens {
+    text-align: center;
+}
+#footer-liens ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#footer-liens .Lien a{
+    display: flex;
+    color:inherit;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 1s;
+}
+#footer-liens li a:hover,#footer-liens li a:active{
+    color:white;
+}
+
+@font-face {
+    font-family: 'poison-regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../Fichiers_Externes/Poison-Regular.ttf');
+}

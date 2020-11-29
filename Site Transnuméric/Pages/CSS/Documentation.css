@@ -1,0 +1,76 @@
+html {
+    display:flex;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+main {
+    display: flex;
+    justify-self: center;
+    width:80%;
+    height:100%;
+    background-color: lawngreen;
+}
+header {
+    display: flex;
+    background-color: white;
+    border-bottom: solid rgb(192, 192, 192) 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+footer {
+    display:flex;
+    position: absolute;
+    width:100%;
+    background-color:navy;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+footer div {
+    background-color: rgb(228, 241, 44);
+    width:20%
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    width:100%;
+    margin: 10px;
+}
+nav .Lien {
+    display:flex;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(21, 57, 101);
+    font-size: 20px;
+    transition: color 1s;
+    margin: 0px;
+}
+nav .Lien:hover, nav .Lien:focus, nav .Lien:active {
+    color: rgb(46, 126, 224);
+}
+#LogoTransnumeric {
+    display:flex;
+    justify-self: flex-start;
+    width:30%;
+}
+#footer-liens {
+    text-align: center;
+}
+#footer-liens ul {
+    list-style: none;
+}
+h1 {
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left : 240px;
+}
